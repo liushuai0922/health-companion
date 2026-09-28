@@ -1,0 +1,113 @@
+[
+  {
+    "key": "diabetes-2023",
+    "title": "成人糖尿病食养指南（2023年版）",
+    "publisher": "国家卫生健康委员会",
+    "year": 2023,
+    "condition_codes": [
+      "type2_diabetes"
+    ],
+    "source_url": "https://www.nhc.gov.cn/sps/c100088/202301/f01895a06c5349ef999f25da833c166d.shtml",
+    "note": "官方文件索引；具体建议见原文，个体方案需结合诊疗资料。"
+  },
+  {
+    "key": "hypertension-2023",
+    "title": "成人高血压食养指南（2023年版）",
+    "publisher": "国家卫生健康委员会",
+    "year": 2023,
+    "condition_codes": [
+      "hypertension"
+    ],
+    "source_url": "https://www.nhc.gov.cn/sps/c100088/202301/f01895a06c5349ef999f25da833c166d.shtml",
+    "note": "官方文件索引；具体建议见原文，个体方案需结合诊疗资料。"
+  },
+  {
+    "key": "dyslipidemia-2023",
+    "title": "成人高脂血症食养指南（2023年版）",
+    "publisher": "国家卫生健康委员会",
+    "year": 2023,
+    "condition_codes": [
+      "hyperlipidemia"
+    ],
+    "source_url": "https://www.nhc.gov.cn/sps/c100088/202301/f01895a06c5349ef999f25da833c166d.shtml",
+    "note": "官方文件索引；具体建议见原文，个体方案需结合诊疗资料。"
+  },
+  {
+    "key": "gout-2024",
+    "title": "成人高尿酸血症与痛风食养指南（2024年版）",
+    "publisher": "国家卫生健康委员会",
+    "year": 2024,
+    "condition_codes": [
+      "hyperuricemia",
+      "gout"
+    ],
+    "source_url": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d.shtml",
+    "note": "官方文件索引；具体建议见原文，个体方案需结合诊疗资料。"
+  },
+  {
+    "key": "obesity-2024",
+    "title": "成人肥胖食养指南（2024年版）",
+    "publisher": "国家卫生健康委员会",
+    "year": 2024,
+    "condition_codes": [
+      "obesity"
+    ],
+    "source_url": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d.shtml",
+    "note": "官方文件索引；具体建议见原文，个体方案需结合诊疗资料。"
+  },
+  {
+    "key": "ckd-2024",
+    "title": "成人慢性肾脏病食养指南（2024年版）",
+    "publisher": "国家卫生健康委员会",
+    "year": 2024,
+    "condition_codes": [
+      "chronic_kidney_disease"
+    ],
+    "source_url": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d.shtml",
+    "note": "官方文件索引；具体建议见原文，个体方案需结合诊疗资料。"
+  },
+  {
+    "key": "stroke-2026",
+    "title": "成人脑卒中食养指南（2026年版）",
+    "publisher": "国家卫生健康委员会",
+    "year": 2026,
+    "condition_codes": [
+      "stroke"
+    ],
+    "source_url": "https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml",
+    "note": "官方文件索引；具体建议见原文，个体方案需结合诊疗资料。"
+  },
+  {
+    "key": "osteoporosis-2026",
+    "title": "成人骨质疏松症食养指南（2026年版）",
+    "publisher": "国家卫生健康委员会",
+    "year": 2026,
+    "condition_codes": [
+      "osteoporosis"
+    ],
+    "source_url": "https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml",
+    "note": "官方文件索引；具体建议见原文，个体方案需结合诊疗资料。"
+  },
+  {
+    "key": "sarcopenia-2026",
+    "title": "成人肌少症食养指南（2026年版）",
+    "publisher": "国家卫生健康委员会",
+    "year": 2026,
+    "condition_codes": [
+      "sarcopenia"
+    ],
+    "source_url": "https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml",
+    "note": "官方文件索引；具体建议见原文，个体方案需结合诊疗资料。"
+  },
+  {
+    "key": "elderly-2022",
+    "title": "老年人营养改善核心信息",
+    "publisher": "国家卫生健康委员会",
+    "year": 2022,
+    "condition_codes": [
+      "older_adult"
+    ],
+    "source_url": "https://www.nhc.gov.cn/lljks/c100158/202210/8a11962d784540d7a61ef883948f768e.shtml",
+    "note": "官方文件索引；具体建议见原文，个体方案需结合诊疗资料。"
+  }
+]

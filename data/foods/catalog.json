@@ -1,0 +1,6 @@
+{
+  "foods": {
+    "grapefruit": {"name": "西柚或西柚汁", "aliases": ["西柚", "葡萄柚", "西柚汁", "grapefruit juice"]},
+    "high_sodium_food": {"name": "高盐食品", "aliases": ["高盐食品", "咸菜"]}
+  }
+}

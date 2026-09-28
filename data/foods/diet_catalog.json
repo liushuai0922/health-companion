@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0-demo",
+  "note": "家常食物示例分类；份量为录入参考，不是医学份量处方。部分食物可按 USDA 代表食品估算营养；烹调调味和未识别食物不计入。",
+  "foods": [
+    {"id":"oats","name":"原味燕麦粥","portion":"1 碗，约 200 g","tags":{"whole_grain":1},"allergens":["燕麦"]},
+    {"id":"brown_rice","name":"杂粮饭","portion":"1 小碗，约 150 g","tags":{"whole_grain":1},"allergens":[]},
+    {"id":"white_rice","name":"白米饭","portion":"1 小碗，约 150 g","tags":{},"allergens":[]},
+    {"id":"whole_wheat","name":"全麦面包","portion":"2 片，约 60 g","tags":{"whole_grain":1},"allergens":["小麦"]},
+    {"id":"vegetables","name":"清炒或清蒸蔬菜（少油）","portion":"1 小碗，约 100 g","tags":{"vegetables":1},"allergens":[]},
+    {"id":"salad","name":"蔬菜沙拉（少酱）","portion":"1 小碗，约 100 g","tags":{"vegetables":1},"allergens":[]},
+    {"id":"fish","name":"清蒸鱼","portion":"1 掌心，约 100 g","tags":{"protein":1},"allergens":["鱼"]},
+    {"id":"chicken","name":"去皮鸡肉（非油炸）","portion":"1 掌心，约 100 g","tags":{"protein":1},"allergens":[]},
+    {"id":"tofu","name":"豆腐（非油炸）","portion":"1 小份，约 100 g","tags":{"protein":1},"allergens":["大豆"]},
+    {"id":"egg","name":"水煮蛋","portion":"1 个","tags":{"protein":0.5},"allergens":["鸡蛋"]},
+    {"id":"milk","name":"无糖低脂牛奶","portion":"1 杯，约 250 mL","tags":{"protein":0.5},"allergens":["牛奶"]},
+    {"id":"apple","name":"苹果或其他完整水果","portion":"1 小个，约 150 g","tags":{},"allergens":[]},
+    {"id":"nuts","name":"原味坚果","portion":"1 小把，约 15 g","tags":{},"allergens":["坚果","花生"]},
+    {"id":"water","name":"水或无糖茶","portion":"1 杯，约 250 mL","tags":{},"allergens":[]},
+    {"id":"sweet_drink","name":"含糖奶茶或汽水","portion":"1 杯，约 300 mL","tags":{"sugary_drink":1},"allergens":[]},
+    {"id":"cake","name":"奶油蛋糕或甜点","portion":"1 小块，约 80 g","tags":{"sugary_drink":0.5,"rich_food":1},"allergens":["牛奶","鸡蛋","小麦"]},
+    {"id":"fried_chicken","name":"炸鸡或其他油炸肉类","portion":"1 小份，约 100 g","tags":{"protein":1,"rich_food":1},"allergens":[]},
+    {"id":"fatty_meat","name":"肥肉或红烧五花肉","portion":"1 小份，约 100 g","tags":{"rich_food":1},"allergens":[]},
+    {"id":"sausage","name":"香肠或腊肉","portion":"1 小份，约 50 g","tags":{"rich_food":1,"high_sodium":1},"allergens":[]},
+    {"id":"pickles","name":"咸菜","portion":"1 小碟，约 30 g","tags":{"high_sodium":1},"allergens":[]},
+    {"id":"beer","name":"啤酒","portion":"1 罐，约 330 mL","tags":{"alcohol":1},"allergens":[]},
+    {"id":"wine","name":"葡萄酒或其他酒类","portion":"1 杯，按实际容量备注","tags":{"alcohol":1},"allergens":[]},
+    {"id":"grapefruit","name":"西柚或西柚汁","portion":"1 份，按实际容量备注","tags":{},"allergens":[]},
+    {"id":"other","name":"其他食物（暂不能识别）","portion":"请在食物备注中写名称与份量","tags":{},"allergens":[]}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "version": "0.1.0-demo",
+  "drugs": {
+    "atorvastatin": {"name": "阿托伐他汀", "aliases": ["阿托伐他汀", "阿托伐他汀钙", "阿托伐他汀钙片"]},
+    "ibuprofen": {"name": "布洛芬", "aliases": ["布洛芬", "布洛芬片"]},
+    "warfarin": {"name": "华法林", "aliases": ["华法林", "华法林钠", "华法林钠片"]}
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "version": "2026-09-26-v1",
+  "scope": "帮助理解已记录的情况和常见检查；不是诊断、检查计划或个人治疗目标。除 BMI 外，本演示未收集下列检查结果。",
+  "topics": [
+    {
+      "key": "bmi",
+      "title": "BMI · 身高体重比",
+      "conditions": [],
+      "always": true,
+      "meaning": "BMI 由体重（千克）除以身高（米）的平方得到，用于成人体重初步筛查。",
+      "look_for": "留意体重随时间的变化；BMI 不能单独说明脂肪分布、肌肉量或疾病严重程度。",
+      "source_title": "国家卫生健康委：2025 年 3 月 19 日新闻发布会",
+      "source_url": "https://www.nhc.gov.cn/xcs/c100122/202503/27b26d397f4941ff8ff3846ef40026ee.shtml"
+    },
+    {
+      "key": "lipids",
+      "title": "血脂四项",
+      "conditions": [
+        "hyperlipidemia",
+        "fatty_liver",
+        "stroke"
+      ],
+      "meaning": "血脂报告常列出总胆固醇、LDL-C、HDL-C 和甘油三酯；它们提供不同的心血管风险信息。",
+      "look_for": "查看报告中的各项结果和既往变化；LDL-C 的管理目标需结合个人风险与医生讨论。",
+      "source_title": "美国心脏协会：认识血脂检查",
+      "source_url": "https://www.heart.org/en/health-topics/cholesterol/your-complete-guide-to-understanding-cholesterol-and-lipids"
+    },
+    {
+      "key": "liver",
+      "title": "肝酶与肝脏影像",
+      "conditions": [
+        "fatty_liver"
+      ],
+      "meaning": "ALT、AST 和影像结果可帮助医生评估肝脏情况；单看一项结果无法判断肝脏炎症或纤维化程度。",
+      "look_for": "把检查报告和既往结果一起交给医生解释，询问是否需要进一步评估。",
+      "source_title": "美国 NIDDK：脂肪肝的检查与诊断",
+      "source_url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/diagnosis"
+    },
+    {
+      "key": "blood_pressure",
+      "title": "血压记录",
+      "conditions": [
+        "hypertension",
+        "stroke",
+        "chronic_kidney_disease"
+      ],
+      "meaning": "收缩压和舒张压是两项不同的读数。连续记录比凭单次感受判断更有用。",
+      "look_for": "按已确认的测量方法记录日期、时间及读数，与医生核对适合自己的管理目标。",
+      "source_title": "国家卫生健康委：成人高血压食养指南（2023 年版）",
+      "source_url": "https://www.nhc.gov.cn/cms-search/downFiles/63f752a17cfd4b4781f744477561866f.pdf"
+    },
+    {
+      "key": "glucose",
+      "title": "血糖与糖化血红蛋白",
+      "conditions": [
+        "type2_diabetes"
+      ],
+      "meaning": "即时血糖反映测量时的水平；糖化血红蛋白（HbA1c）概括过去约 2 至 3 个月的平均血糖。",
+      "look_for": "记录检测方式、时间和结果；血糖目标要结合年龄、用药及低血糖风险确定。",
+      "source_title": "美国 CDC：糖尿病检测",
+      "source_url": "https://www.cdc.gov/diabetes/diabetes-testing/index.html"
+    },
+    {
+      "key": "uric_acid",
+      "title": "血尿酸与痛风发作",
+      "conditions": [
+        "hyperuricemia",
+        "gout"
+      ],
+      "meaning": "血尿酸是实验室指标，痛风是临床疾病；尿酸偏高不等于已确诊痛风。",
+      "look_for": "如有反复关节红肿疼痛，结合发作记录和化验结果向医生核对。",
+      "source_title": "国家卫生健康委：成人高尿酸血症与痛风食养指南（2024 年版）",
+      "source_url": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d.shtml"
+    },
+    {
+      "key": "kidney",
+      "title": "eGFR 与尿白蛋白",
+      "conditions": [
+        "chronic_kidney_disease",
+        "type2_diabetes",
+        "hypertension"
+      ],
+      "meaning": "eGFR 帮助了解肾脏过滤功能，尿白蛋白／肌酐比（UACR）帮助了解肾损伤。",
+      "look_for": "两项结果及其随时间的变化需一起讨论；不能只凭一次读数决定饮水或蛋白质摄入。",
+      "source_title": "美国 NIDDK：慢性肾病的评估",
+      "source_url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd"
+    },
+    {
+      "key": "bone_muscle",
+      "title": "骨骼与肌肉状态",
+      "conditions": [
+        "osteoporosis",
+        "sarcopenia"
+      ],
+      "older_adult": true,
+      "meaning": "老年人除了体重，还应关注食量、体重变化、肌力、跌倒情况；骨质疏松评估可能需要骨密度检查。",
+      "look_for": "出现进食减少、明显变瘦、力量下降或跌倒时，和专业人员讨论营养与活动方案。",
+      "source_title": "国家卫生健康委：老年营养改善行动",
+      "source_url": "https://www.nhc.gov.cn/lljks/c100158/202210/8a11962d784540d7a61ef883948f768e.shtml"
+    }
+  ]
+}

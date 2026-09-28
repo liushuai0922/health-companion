@@ -1,0 +1,13 @@
+{
+  "version":"0.1.0-demo",
+  "method":"饮食习惯演示分，不是临床量表。权重、份数阈值和分档均为产品演示设计，未经过临床验证。",
+  "limitations":"演示分只评价已确认记录的食物类别；下方营养估算单独显示，不能判断真实营养是否足量或治疗效果。高分不等于吃得足够或医学上安全。",
+  "dimensions":[
+    {"id":"vegetables","label":"蔬菜记录","mode":"increase","target":3,"weight":20,"condition_weights":{"hyperlipidemia":25},"hint":"尝试在正餐中加入蔬菜，并如实记录份量。","source":"https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods"},
+    {"id":"whole_grain","label":"全谷物选择","mode":"increase","target":1,"weight":15,"condition_weights":{"hyperlipidemia":20},"hint":"可用部分全谷物替换精制主食，留意总份量。","source":"https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition"},
+    {"id":"protein","label":"蛋白质食物记录","mode":"increase","target":2,"weight":15,"condition_weights":{},"hint":"留意正餐是否有合适的蛋白质来源；特殊疾病的份量需单独确认。","source":"https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods"},
+    {"id":"sugary_drink","label":"含糖饮品与甜食","mode":"limit","target":0,"weight":20,"condition_weights":{"fatty_liver":25,"type2_diabetes":25},"hint":"优先把含糖饮料换成水或无糖饮品，减少甜食。","source":"https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition"},
+    {"id":"rich_food","label":"油炸及高脂食物","mode":"limit","target":0,"weight":15,"condition_weights":{"hyperlipidemia":25,"fatty_liver":20},"hint":"减少油炸、肥肉和加工肉，更多选择蒸、煮等做法。","source":"https://www.nhlbi.nih.gov/health/TLC-Therapeutic-Lifestyle-Changes-Lower-Cholesterol"},
+    {"id":"alcohol","label":"酒精记录","mode":"limit","target":0,"weight":15,"condition_weights":{"fatty_liver":20},"hint":"减少饮酒；脂肪肝患者应和医生确认是否需要完全戒酒。","source":"https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition"}
+  ]
+}

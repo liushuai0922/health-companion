@@ -1,0 +1,322 @@
+{
+  "version": "2026-09-26-demo",
+  "source": "USDA FoodData Central 本地 SR Legacy 食品成分索引，每 100 g 代表值",
+  "source_url": "https://fdc.nal.usda.gov/data-documentation/",
+  "foods": {
+    "oats": {
+      "portion_g": 200,
+      "fdc_id": 173905,
+      "description_en": "Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+      "source_url": "https://fdc.nal.usda.gov/food-details/173905/nutrients",
+      "note": "按清水煮燕麦粥；牛奶、糖另记。",
+      "per_100g": {
+        "energy_kcal": 71.0,
+        "protein_g": 2.54,
+        "fat_g": 1.52,
+        "carbohydrate_g": 12.0,
+        "fiber_g": 1.7,
+        "sodium_mg": 4.0
+      }
+    },
+    "brown_rice": {
+      "portion_g": 150,
+      "fdc_id": 169704,
+      "description_en": "Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/169704/nutrients",
+      "note": "按熟糙米饭代表杂粮饭；配比不同会变化。",
+      "per_100g": {
+        "energy_kcal": 123.0,
+        "protein_g": 2.74,
+        "fat_g": 0.97,
+        "carbohydrate_g": 25.58,
+        "fiber_g": 1.6,
+        "sodium_mg": 4.0
+      }
+    },
+    "white_rice": {
+      "portion_g": 150,
+      "fdc_id": 168878,
+      "description_en": "Rice, white, long-grain, regular, enriched, cooked",
+      "source_url": "https://fdc.nal.usda.gov/food-details/168878/nutrients",
+      "note": "按熟白米饭。",
+      "per_100g": {
+        "energy_kcal": 130.0,
+        "protein_g": 2.69,
+        "fat_g": 0.28,
+        "carbohydrate_g": 28.17,
+        "fiber_g": 0.4,
+        "sodium_mg": 1.0
+      }
+    },
+    "whole_wheat": {
+      "portion_g": 60,
+      "fdc_id": 172688,
+      "description_en": "Bread, whole-wheat, commercially prepared",
+      "source_url": "https://fdc.nal.usda.gov/food-details/172688/nutrients",
+      "note": "按全麦面包；品牌不同会变化。",
+      "per_100g": {
+        "energy_kcal": 252.0,
+        "protein_g": 12.45,
+        "fat_g": 3.5,
+        "carbohydrate_g": 42.71,
+        "fiber_g": 6.0,
+        "sodium_mg": 455.0
+      }
+    },
+    "vegetables": {
+      "portion_g": 100,
+      "fdc_id": 169976,
+      "description_en": "Cabbage, cooked, boiled, drained, without salt",
+      "source_url": "https://fdc.nal.usda.gov/food-details/169976/nutrients",
+      "note": "按水煮卷心菜；未含炒菜油、盐和酱汁。",
+      "per_100g": {
+        "energy_kcal": 23.0,
+        "protein_g": 1.27,
+        "fat_g": 0.06,
+        "carbohydrate_g": 5.51,
+        "fiber_g": 1.9,
+        "sodium_mg": 8.0
+      }
+    },
+    "salad": {
+      "portion_g": 100,
+      "fdc_id": 170379,
+      "description_en": "Broccoli, raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/170379/nutrients",
+      "note": "按生西兰花；未含沙拉酱。",
+      "per_100g": {
+        "energy_kcal": 34.0,
+        "protein_g": 2.82,
+        "fat_g": 0.37,
+        "carbohydrate_g": 6.64,
+        "fiber_g": 2.6,
+        "sodium_mg": 33.0
+      }
+    },
+    "fish": {
+      "portion_g": 100,
+      "fdc_id": 171956,
+      "description_en": "Fish, cod, Atlantic, cooked, dry heat",
+      "source_url": "https://fdc.nal.usda.gov/food-details/171956/nutrients",
+      "note": "按熟鳕鱼；鱼种和调味会变化。",
+      "per_100g": {
+        "energy_kcal": 105.0,
+        "protein_g": 22.83,
+        "fat_g": 0.86,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 78.0
+      }
+    },
+    "chicken": {
+      "portion_g": 100,
+      "fdc_id": 171477,
+      "description_en": "Chicken, broilers or fryers, breast, meat only, cooked, roasted",
+      "source_url": "https://fdc.nal.usda.gov/food-details/171477/nutrients",
+      "note": "按熟去皮鸡胸肉；部位和调味会变化。",
+      "per_100g": {
+        "energy_kcal": 165.0,
+        "protein_g": 31.02,
+        "fat_g": 3.57,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 74.0
+      }
+    },
+    "tofu": {
+      "portion_g": 100,
+      "fdc_id": 172448,
+      "description_en": "Tofu, firm, prepared with calcium sulfate and magnesium chloride (nigari)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/172448/nutrients",
+      "note": "按硬豆腐；豆腐种类会变化。",
+      "per_100g": {
+        "energy_kcal": 78.0,
+        "protein_g": 9.04,
+        "fat_g": 4.17,
+        "carbohydrate_g": 2.85,
+        "fiber_g": 0.9,
+        "sodium_mg": 12.0
+      }
+    },
+    "egg": {
+      "portion_g": 50,
+      "fdc_id": 173424,
+      "description_en": "Egg, whole, cooked, hard-boiled",
+      "source_url": "https://fdc.nal.usda.gov/food-details/173424/nutrients",
+      "note": "按可食部分 50 g 的水煮蛋。",
+      "per_100g": {
+        "energy_kcal": 155.0,
+        "protein_g": 12.58,
+        "fat_g": 10.61,
+        "carbohydrate_g": 1.12,
+        "fiber_g": 0.0,
+        "sodium_mg": 124.0
+      }
+    },
+    "milk": {
+      "portion_g": 250,
+      "fdc_id": 170872,
+      "description_en": "Milk, lowfat, fluid, 1% milkfat, with added vitamin A and vitamin D",
+      "source_url": "https://fdc.nal.usda.gov/food-details/170872/nutrients",
+      "note": "按 250 mL≈250 g 的 1% 低脂牛奶。",
+      "per_100g": {
+        "energy_kcal": 42.0,
+        "protein_g": 3.37,
+        "fat_g": 0.97,
+        "carbohydrate_g": 4.99,
+        "fiber_g": 0.0,
+        "sodium_mg": 44.0
+      }
+    },
+    "apple": {
+      "portion_g": 150,
+      "fdc_id": 171688,
+      "description_en": "Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)",
+      "source_url": "https://fdc.nal.usda.gov/food-details/171688/nutrients",
+      "note": "按苹果；其他水果需另查。",
+      "per_100g": {
+        "energy_kcal": 52.0,
+        "protein_g": 0.26,
+        "fat_g": 0.17,
+        "carbohydrate_g": 13.81,
+        "fiber_g": 2.4,
+        "sodium_mg": 1.0
+      }
+    },
+    "nuts": {
+      "portion_g": 15,
+      "fdc_id": 170158,
+      "description_en": "Nuts, almonds, dry roasted, without salt added",
+      "source_url": "https://fdc.nal.usda.gov/food-details/170158/nutrients",
+      "note": "按无盐烘烤杏仁；坚果种类会变化。",
+      "per_100g": {
+        "energy_kcal": 598.0,
+        "protein_g": 20.96,
+        "fat_g": 52.54,
+        "carbohydrate_g": 21.01,
+        "fiber_g": 10.9,
+        "sodium_mg": 3.0
+      }
+    },
+    "sweet_drink": {
+      "portion_g": 300,
+      "fdc_id": 174852,
+      "description_en": "Beverages, carbonated, cola, regular",
+      "source_url": "https://fdc.nal.usda.gov/food-details/174852/nutrients",
+      "note": "按 300 mL≈300 g 普通可乐；奶茶可能差异很大。",
+      "per_100g": {
+        "energy_kcal": 42.0,
+        "protein_g": 0.0,
+        "fat_g": 0.25,
+        "carbohydrate_g": 10.36,
+        "fiber_g": 0.0,
+        "sodium_mg": 3.0
+      }
+    },
+    "cake": {
+      "portion_g": 80,
+      "fdc_id": 174934,
+      "description_en": "Cake, chocolate, commercially prepared with chocolate frosting, in-store bakery",
+      "source_url": "https://fdc.nal.usda.gov/food-details/174934/nutrients",
+      "note": "按巧克力糖霜蛋糕；甜点种类会变化。",
+      "per_100g": {
+        "energy_kcal": 389.0,
+        "protein_g": 3.48,
+        "fat_g": 20.05,
+        "carbohydrate_g": 52.84,
+        "fiber_g": 2.2,
+        "sodium_mg": 348.0
+      }
+    },
+    "fried_chicken": {
+      "portion_g": 100,
+      "fdc_id": 171448,
+      "description_en": "Chicken, broilers or fryers, meat and skin, cooked, fried, batter",
+      "source_url": "https://fdc.nal.usda.gov/food-details/171448/nutrients",
+      "note": "按裹粉油炸鸡肉；油炸做法会变化。",
+      "per_100g": {
+        "energy_kcal": 289.0,
+        "protein_g": 22.54,
+        "fat_g": 17.35,
+        "carbohydrate_g": 9.42,
+        "fiber_g": 0.3,
+        "sodium_mg": 292.0
+      }
+    },
+    "fatty_meat": {
+      "portion_g": 100,
+      "fdc_id": 167812,
+      "description_en": "Pork, fresh, belly, raw",
+      "source_url": "https://fdc.nal.usda.gov/food-details/167812/nutrients",
+      "note": "按生五花肉；烹调失水、用油和酱汁未计。",
+      "per_100g": {
+        "energy_kcal": 518.0,
+        "protein_g": 9.34,
+        "fat_g": 53.01,
+        "carbohydrate_g": 0.0,
+        "fiber_g": 0.0,
+        "sodium_mg": 32.0
+      }
+    },
+    "sausage": {
+      "portion_g": 50,
+      "fdc_id": 167694,
+      "description_en": "Sausage, turkey and pork, fresh, bulk, patty or link, cooked",
+      "source_url": "https://fdc.nal.usda.gov/food-details/167694/nutrients",
+      "note": "按熟猪肉/火鸡香肠；腊肉差异很大。",
+      "per_100g": {
+        "energy_kcal": 307.0,
+        "protein_g": 22.7,
+        "fat_g": 23.0,
+        "carbohydrate_g": 0.7,
+        "fiber_g": 0.0,
+        "sodium_mg": 878.0
+      }
+    },
+    "pickles": {
+      "portion_g": 30,
+      "fdc_id": 168558,
+      "description_en": "Pickles, cucumber, dill or kosher dill",
+      "source_url": "https://fdc.nal.usda.gov/food-details/168558/nutrients",
+      "note": "按腌黄瓜；中式咸菜钠含量可能不同。",
+      "per_100g": {
+        "energy_kcal": 12.0,
+        "protein_g": 0.5,
+        "fat_g": 0.3,
+        "carbohydrate_g": 2.41,
+        "fiber_g": 1.0,
+        "sodium_mg": 809.0
+      }
+    },
+    "beer": {
+      "portion_g": 330,
+      "fdc_id": 168746,
+      "description_en": "Alcoholic beverage, beer, regular, all",
+      "source_url": "https://fdc.nal.usda.gov/food-details/168746/nutrients",
+      "note": "按 330 mL≈330 g 普通啤酒。",
+      "per_100g": {
+        "energy_kcal": 43.0,
+        "protein_g": 0.46,
+        "fat_g": 0.0,
+        "carbohydrate_g": 3.55,
+        "fiber_g": 0.0,
+        "sodium_mg": 4.0
+      }
+    },
+    "water": {
+      "portion_g": 250,
+      "fdc_id": null,
+      "description_en": "Plain water / unsweetened tea assumed",
+      "source_url": null,
+      "note": "按不加糖/奶的水或茶，六项营养均按 0 计算。",
+      "per_100g": {
+        "energy_kcal": 0,
+        "protein_g": 0,
+        "fat_g": 0,
+        "carbohydrate_g": 0,
+        "fiber_g": 0,
+        "sodium_mg": 0
+      }
+    }
+  }
+}

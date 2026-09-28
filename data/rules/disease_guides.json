@@ -1,0 +1,230 @@
+{
+  "version": "2026-09-26-review-v1",
+  "guides": {
+    "fatty_liver": {
+      "title": "脂肪肝",
+      "scope": "主要参考非酒精性／代谢相关脂肪性肝病资料；其他肝病需专业评估。",
+      "source_title": "美国 NIDDK：脂肪肝饮食与营养",
+      "source_url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition",
+      "sections": [
+        {
+          "title": "逐步管理体重",
+          "text": "如已确认超重或肥胖，和专业人员一起调整食物份量与体重，避免快速节食。",
+          "examples": "先减少超大份主食和高能量零食。"
+        },
+        {
+          "title": "少喝甜饮料",
+          "text": "减少甜茶、汽水、果汁等高糖饮品，尤其留意高果糖。",
+          "examples": "优先白水或无糖茶。"
+        },
+        {
+          "title": "改善脂肪和主食选择",
+          "text": "少选肥肉和高饱和脂肪食物，以蔬菜和适量全谷物替代部分精制主食。",
+          "examples": "用燕麦或杂粮替换部分白米饭。"
+        },
+        {
+          "title": "与医生核对饮酒安排",
+          "text": "酒精可能进一步损害肝脏，应尽量减少，并确认是否需要完全戒酒。",
+          "examples": "本系统不设安全饮酒量。"
+        }
+      ]
+    },
+    "hypertension": {
+      "title": "高血压",
+      "scope": "DASH 是成人血压管理的饮食模式；钠、钾和能量目标需结合肾功能及用药确定。",
+      "source_title": "美国 NHLBI：DASH 饮食计划",
+      "source_url": "https://www.nhlbi.nih.gov/health/dash-eating-plan",
+      "sections": [
+        {
+          "title": "减少盐和高钠食品",
+          "text": "留意腌制肉、方便食品、浓重酱料与外卖中的钠。",
+          "examples": "看包装钠含量，烹调逐步少放盐。"
+        },
+        {
+          "title": "让餐盘更多样",
+          "text": "搭配蔬菜、水果、全谷物、低脂奶、豆类及适量蛋白质。",
+          "examples": "比只吃一种所谓“降压食物”更实用。"
+        },
+        {
+          "title": "肾病时不要自行补钾",
+          "text": "肾功能异常或服用影响血钾的药物时，不自行大量增加高钾食物或用含钾代盐。",
+          "examples": "先问医生或药师能否使用代盐。"
+        }
+      ]
+    },
+    "type2_diabetes": {
+      "title": "2 型糖尿病",
+      "scope": "食物选择、份量和进餐时间需结合血糖与用药；本页不计算个人碳水处方。",
+      "source_title": "美国 NIDDK：糖尿病健康生活",
+      "source_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/healthy-living-with-diabetes",
+      "sections": [
+        {
+          "title": "关注主食和甜饮料",
+          "text": "用无糖饮品替换甜饮料，留意米饭、面食、薯类、水果等含碳水食物的份量。",
+          "examples": "全谷物也计入主食份量。"
+        },
+        {
+          "title": "尝试餐盘法",
+          "text": "半盘非淀粉类蔬菜、四分之一盘富含纤维的碳水食物、四分之一盘蛋白质可作为讨论起点。",
+          "examples": "蔬菜、适量杂粮饭与豆腐。"
+        },
+        {
+          "title": "餐次配合用药",
+          "text": "进餐时间可能受胰岛素或其他降糖药影响，不自行跳餐替代治疗。",
+          "examples": "按个人监测和进餐计划执行。"
+        }
+      ]
+    },
+    "hyperlipidemia": {
+      "title": "高脂血症",
+      "scope": "这里是一般心血管友好饮食方向；血脂分型和药物治疗需个别评估。",
+      "source_title": "美国 NHLBI：TLC 降胆固醇生活方式",
+      "source_url": "https://www.nhlbi.nih.gov/health/TLC-Therapeutic-Lifestyle-Changes-Lower-Cholesterol",
+      "sections": [
+        {
+          "title": "减少饱和脂肪",
+          "text": "少选肥肉、黄油和高脂乳制品，烹调使用适量植物油。",
+          "examples": "选较瘦肉类和低脂奶。"
+        },
+        {
+          "title": "增加可溶性纤维",
+          "text": "让燕麦、豆类、水果和蔬菜更常出现在饮食中。",
+          "examples": "早餐可以选燕麦。"
+        },
+        {
+          "title": "留意整体份量",
+          "text": "植物油和坚果也需注意份量，避免额外叠加过多能量。",
+          "examples": "用少量坚果替代高脂零食。"
+        }
+      ]
+    },
+    "uric_acid": {
+      "title": "高尿酸血症／痛风",
+      "scope": "面向成人一般食养参考。国家指南主要面向未合并肾功能不全等复杂情况的人群；有多种疾病、限液要求、妊娠或特殊处方时，需要专业人员个别调整。饮食管理不能替代痛风药物治疗。",
+      "source_title": "国家卫生健康委《成人高尿酸血症与痛风食养指南（2024年版）》",
+      "source_url": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d.shtml",
+      "extra_source_url": "https://www.nhc.gov.cn/cms-search/downFiles/5d8a03a81dd949158e7d66283c0f1849.pdf",
+      "sections": [
+        {
+          "title": "先安排日常餐盘",
+          "text": "保持食物多样，主食、蔬菜水果、蛋奶及适量蛋白质合理搭配。指南建议新鲜蔬菜每天至少 500 克，鼓励奶及奶制品每天 300 毫升或相当量。",
+          "examples": "例如：早餐牛奶和鸡蛋；午晚餐搭配蔬菜、主食与适量蛋白质。"
+        },
+        {
+          "title": "减少高嘌呤的动物性食物",
+          "text": "尽量避开动物内脏和浓肉汤；红肉及部分水产按实际病情控制份量。痛风急性发作和间歇期的安排可能不同，不能仅凭食物名称断定安全份量。",
+          "examples": "例如：少选肝、肾、火锅浓汤；肉类可汆煮后弃汤。"
+        },
+        {
+          "title": "饮料看糖，酒能免则免",
+          "text": "少喝含糖饮料、果汁，限制果糖较高的加工食品。不饮酒或限制饮酒；急性发作期不要饮酒。",
+          "examples": "例如：日常饮品优先白水或无糖饮品，少选甜饮料和啤酒。"
+        },
+        {
+          "title": "规律饮水需看心肾情况",
+          "text": "国家指南对心、肾功能正常者建议每天饮水 2000～3000 毫升。若有心衰、肾功能不全、医生要求限液，不能照搬这一数值，先确认个人方案。",
+          "examples": "例如：在已确认可正常饮水的前提下，分次规律饮水。"
+        },
+        {
+          "title": "体重和烹调方式",
+          "text": "结合活动维持健康体重，避免靠极端节食或快速减重。烹调尽量清淡，减少油炸，肉类汆煮后尽量不喝浓汤。",
+          "examples": "例如：把炸肉和浓汤换成少油烹调、蔬菜与适量蛋奶。"
+        },
+        {
+          "title": "别把这页当作治疗处方",
+          "text": "饮食只能辅助管理。痛风若反复发作、已有痛风石或合并肾病，应让医生评估血尿酸、药物和个人营养方案；不要自行停药或调整剂量。",
+          "examples": "当前饮食日记的演示分数不计算嘌呤毫克数，也不能预测是否会发作。"
+        }
+      ]
+    },
+    "chronic_kidney_disease": {
+      "title": "慢性肾脏病",
+      "scope": "肾病分期、透析情况及血钾、血磷不同，营养方案差别很大；本页只给一般方向。",
+      "source_title": "国家卫生健康委员会：成人慢性肾脏病食养指南（2024年版）",
+      "source_url": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d.shtml",
+      "sections": [
+        {
+          "title": "先核对个人限制",
+          "text": "蛋白质、钾、磷、盐和液体目标均需结合肾功能、化验结果及是否透析确定。",
+          "examples": "带近期化验单向肾内科或营养师确认。"
+        },
+        {
+          "title": "留意高盐加工食品",
+          "text": "查看加工食品和调味料的钠含量，逐步减少重口味。",
+          "examples": "不能未经确认就改用含钾代盐。"
+        },
+        {
+          "title": "不要照搬其他疾病的食谱",
+          "text": "某些高钾水果、豆类或高蛋白建议可能与个人肾病方案冲突。",
+          "examples": "同时有糖尿病或痛风时，先请专业人员协调目标。"
+        }
+      ]
+    },
+    "stroke": {
+      "title": "脑卒中病史",
+      "scope": "适用于已确诊脑卒中后的饮食方向；吞咽、营养状态与复发风险需个别评估。",
+      "source_title": "国家卫生健康委员会：成人脑卒中食养指南（2026年版）",
+      "source_url": "https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml",
+      "sections": [
+        {
+          "title": "关注心血管友好饮食",
+          "text": "减少盐和高饱和脂肪食物，搭配蔬菜、全谷物与适量优质蛋白。",
+          "examples": "根据实际吞咽能力选择安全食物质地。"
+        },
+        {
+          "title": "吞咽困难先评估",
+          "text": "有呛咳、吞咽困难或体重持续下降时，需尽快请专业人员评估食物质地和营养支持。",
+          "examples": "不要自行采用普通饮食或稀水。"
+        }
+      ]
+    },
+    "osteoporosis": {
+      "title": "骨质疏松症",
+      "scope": "钙和维生素 D 的需求及补充方式需考虑饮食、骨折史和肾功能。",
+      "source_title": "国家卫生健康委员会：成人骨质疏松症食养指南（2026年版）",
+      "source_url": "https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml",
+      "sections": [
+        {
+          "title": "关注钙和维生素 D",
+          "text": "从日常食物中安排钙来源，并与医生确认是否需要补充维生素 D 或药物。",
+          "examples": "可考虑奶及奶制品；不耐受或肾病时另行安排。"
+        },
+        {
+          "title": "饮食配合防跌倒",
+          "text": "均衡饮食与适合自身的活动、肌力和平衡训练共同重要。",
+          "examples": "有骨折或跌倒风险时先确认安全运动方案。"
+        }
+      ]
+    },
+    "sarcopenia": {
+      "title": "肌少症",
+      "scope": "老年人尤其需要评估体重变化、进食量、肌力和肾功能；本页不规定个人蛋白质克数。",
+      "source_title": "国家卫生健康委员会：成人肌少症食养指南（2026年版）",
+      "source_url": "https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml",
+      "sections": [
+        {
+          "title": "保证足够进食",
+          "text": "留意食量下降和体重下降，规律进餐，选择多样的蛋白质食物。",
+          "examples": "鸡蛋、奶、豆制品、鱼肉可按个人情况搭配。"
+        },
+        {
+          "title": "与力量活动结合",
+          "text": "在安全前提下结合抗阻活动；同时有慢性肾病时蛋白质目标必须个别确定。",
+          "examples": "请医生或营养师结合肾功能和活动能力制定方案。"
+        }
+      ]
+    }
+  },
+  "disease_to_guide": {
+    "fatty_liver": "fatty_liver",
+    "hypertension": "hypertension",
+    "type2_diabetes": "type2_diabetes",
+    "hyperlipidemia": "hyperlipidemia",
+    "hyperuricemia": "uric_acid",
+    "gout": "uric_acid",
+    "chronic_kidney_disease": "chronic_kidney_disease",
+    "stroke": "stroke",
+    "osteoporosis": "osteoporosis",
+    "sarcopenia": "sarcopenia"
+  }
+}

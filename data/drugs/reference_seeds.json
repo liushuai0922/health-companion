@@ -1,0 +1,31 @@
+{
+  "version":"0.1.0",
+  "note":"中文展示名与分类为本项目人工整理，仅供检索；英文标识交由 RxNorm 校验。药品出现在目录不表示适合任何个人使用。",
+  "drugs":[
+    {"key":"metformin","zh":"二甲双胍","group":"血糖管理","aliases":["盐酸二甲双胍"]},
+    {"key":"glipizide","zh":"格列吡嗪","group":"血糖管理","aliases":[]},
+    {"key":"sitagliptin","zh":"西格列汀","group":"血糖管理","aliases":[]},
+    {"key":"empagliflozin","zh":"恩格列净","group":"血糖管理","aliases":[]},
+    {"key":"dapagliflozin","zh":"达格列净","group":"血糖管理","aliases":[]},
+    {"key":"semaglutide","zh":"司美格鲁肽","group":"血糖管理","aliases":[]},
+    {"key":"acarbose","zh":"阿卡波糖","group":"血糖管理","aliases":[]},
+    {"key":"insulin glargine","zh":"甘精胰岛素","group":"血糖管理","aliases":[]},
+    {"key":"amlodipine","zh":"氨氯地平","group":"血压管理","aliases":["苯磺酸氨氯地平"]},
+    {"key":"losartan","zh":"氯沙坦","group":"血压管理","aliases":[]},
+    {"key":"valsartan","zh":"缬沙坦","group":"血压管理","aliases":[]},
+    {"key":"hydrochlorothiazide","zh":"氢氯噻嗪","group":"血压管理","aliases":[]},
+    {"key":"lisinopril","zh":"赖诺普利","group":"血压管理","aliases":[]},
+    {"key":"atorvastatin","zh":"阿托伐他汀","group":"血脂管理","aliases":["阿托伐他汀钙"]},
+    {"key":"rosuvastatin","zh":"瑞舒伐他汀","group":"血脂管理","aliases":["瑞舒伐他汀钙"]},
+    {"key":"simvastatin","zh":"辛伐他汀","group":"血脂管理","aliases":[]},
+    {"key":"ezetimibe","zh":"依折麦布","group":"血脂管理","aliases":[]},
+    {"key":"fenofibrate","zh":"非诺贝特","group":"血脂管理","aliases":[]},
+    {"key":"allopurinol","zh":"别嘌醇","group":"尿酸相关","aliases":[]},
+    {"key":"febuxostat","zh":"非布司他","group":"尿酸相关","aliases":[]},
+    {"key":"colchicine","zh":"秋水仙碱","group":"尿酸相关","aliases":[]},
+    {"key":"ibuprofen","zh":"布洛芬","group":"其他常见药品","aliases":[]},
+    {"key":"warfarin","zh":"华法林","group":"其他常见药品","aliases":["华法林钠"]},
+    {"key":"aspirin","zh":"阿司匹林","group":"其他常见药品","aliases":[]},
+    {"key":"omeprazole","zh":"奥美拉唑","group":"其他常见药品","aliases":[]}
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "version": "0.1.0-demo",
+  "demo": true,
+  "rules": [
+    {
+      "id": "DDI-WARFARIN-IBUPROFEN", "category": "drug_drug", "trigger": {"drugs_all": ["warfarin", "ibuprofen"], "routes": ["oral"]},
+      "severity": "high", "explanation": "已记录同时使用华法林和口服布洛芬，可能增加出血风险。",
+      "action": "请尽快让医生或药师核对用药，不自行停药、换药或改变剂量。",
+      "evidence_source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2fa4bfc8-386c-433b-bc46-24fc8ec1bca1"
+    },
+    {
+      "id": "DDIS-IBUPROFEN-HTN", "category": "drug_disease", "trigger": {"drugs_all": ["ibuprofen"], "conditions_any": ["hypertension"], "routes": ["oral"]},
+      "severity": "moderate", "explanation": "有高血压记录且使用口服布洛芬，需要关注其可能对血压产生的影响。",
+      "action": "请医生或药师核对，并按已确认的计划监测血压，不自行调整用药。",
+      "evidence_source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e07d989d-1b0e-4cc1-abf2-93c8b208a29a"
+    },
+    {
+      "id": "DFOOD-ATORVASTATIN-GRAPEFRUIT", "category": "drug_food", "trigger": {"drugs_all": ["atorvastatin"], "foods_any": ["grapefruit"], "routes": ["oral"]},
+      "severity": "moderate", "explanation": "阿托伐他汀与西柚汁同用可能影响药物浓度，尤其需关注大量饮用的情况。",
+      "action": "请药师结合具体药品和饮食量确认；不要自行改变剂量。本系统未评估摄入量。",
+      "evidence_source": "https://www.fda.gov/consumers/consumer-updates/grapefruit-juice-and-some-drugs-dont-mix"
+    },
+    {
+      "id": "DISFOOD-HTN-SODIUM", "category": "disease_food", "trigger": {"conditions_any": ["hypertension"], "foods_any": ["high_sodium_food"]},
+      "severity": "low", "explanation": "高盐食品与高血压的控盐目标不一致。",
+      "action": "查看食品标签，减少高盐食品；具体饮食目标按已确认的计划执行。",
+      "evidence_source": "https://www.nhlbi.nih.gov/health/dash-eating-plan"
+    },
+    {
+      "id": "DUPLICATE-GENERIC", "category": "duplicate_medication", "trigger": {"duplicate_generic": true},
+      "severity": "moderate", "explanation": "发现同一通用名的多个当前用药记录，可能是重复录入，也可能是有意安排。",
+      "action": "与医生或药师核对记录和实际用法，不自行合并剂量或停药。",
+      "evidence_source": "DEMO ONLY: 相同通用名记录核对规则，不代表已确认重复治疗"
+    },
+    {
+      "id": "MED-MEAL-RECORDED", "category": "medication_meal_timing", "trigger": {"meal_relations_any": ["before_meal", "with_meal", "after_meal", "fasting"]},
+      "severity": "low", "explanation": "这条用药记录包含与进餐有关的服用要求。",
+      "action": "遵循记录和具体药品说明；本系统不推定饭前或饭后间隔，也不自动移动服药时间。",
+      "evidence_source": "USER ENTERED: 用户记录的 meal_relation，未核验药品说明"
+    }
+  ]
+}

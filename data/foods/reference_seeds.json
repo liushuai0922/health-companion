@@ -1,0 +1,16 @@
+{
+  "version":"0.1.0",
+  "note":"仅为与本地食品分类相近的美国食品样本索引；不能直接代表中国菜肴、品牌、份量或烹调方式。",
+  "foods":[
+    {"key":"vegetables","query":"broccoli raw","exact":"Broccoli, raw"},
+    {"key":"apple","query":"apples raw with skin","exact":"Apples, raw, with skin (Includes foods for USDA's Food Distribution Program)"},
+    {"key":"brown_rice","query":"rice brown long-grain cooked","exact":"Rice, brown, long-grain, cooked (Includes foods for USDA's Food Distribution Program)"},
+    {"key":"white_rice","query":"rice white long-grain cooked","exact":"Rice, white, long-grain, regular, enriched, cooked"},
+    {"key":"tofu","query":"tofu firm prepared with calcium sulfate","exact":"Tofu, firm, prepared with calcium sulfate and magnesium chloride (nigari)"},
+    {"key":"fish","query":"fish cod atlantic cooked dry heat","exact":"Fish, cod, Atlantic, cooked, dry heat"},
+    {"key":"chicken","query":"chicken breast cooked roasted","exact":"Chicken, broilers or fryers, breast, meat only, cooked, roasted"},
+    {"key":"whole_wheat","query":"bread whole-wheat commercially prepared","exact":"Bread, whole-wheat, commercially prepared"},
+    {"key":"egg","query":"egg whole cooked hard-boiled","exact":"Egg, whole, cooked, hard-boiled"},
+    {"key":"oats","query":"cereals oats cooked water without salt","exact":"Cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt"}
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "version": "0.1.0-demo",
+  "timezone": "UTC+08:00",
+  "meal_times": [{"time": "08:00", "label": "早餐"}, {"time": "12:00", "label": "午餐"}, {"time": "18:00", "label": "晚餐"}],
+  "schedule_note": "餐点和监测时刻为演示安排；服药时刻完全采用用户录入，不根据餐点自动调整。"
+}

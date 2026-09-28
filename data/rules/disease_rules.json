@@ -1,0 +1,254 @@
+{
+  "version": "0.4.0-demo",
+  "demo": true,
+  "diseases": {
+    "fatty_liver": {
+      "name": "脂肪肝",
+      "evidence_source": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition",
+      "constraints": [
+        {
+          "id": "LIVER-SUGAR",
+          "constraint": "added_sugar",
+          "direction": "limit",
+          "priority": 75,
+          "severity": "moderate",
+          "explanation": "减少含糖饮料和甜食，日常饮品优先选水或无糖茶。"
+        },
+        {
+          "id": "LIVER-FAT",
+          "constraint": "saturated_fat",
+          "direction": "limit",
+          "priority": 65,
+          "severity": "moderate",
+          "explanation": "减少肥肉、黄油等高饱和脂肪食物，留意烹调油用量。"
+        },
+        {
+          "id": "LIVER-FIBER",
+          "constraint": "fiber",
+          "direction": "increase",
+          "priority": 45,
+          "severity": "low",
+          "explanation": "增加蔬菜和全谷物，用部分粗粮替代精制主食。"
+        },
+        {
+          "id": "LIVER-ALCOHOL",
+          "constraint": "alcohol",
+          "direction": "limit",
+          "priority": 90,
+          "severity": "moderate",
+          "explanation": "尽量减少饮酒，与医生确认是否需要完全戒酒；本系统不设安全饮酒量。"
+        }
+      ],
+      "monitoring": []
+    },
+    "hypertension": {
+      "name": "高血压",
+      "evidence_source": "https://www.nhlbi.nih.gov/health/dash-eating-plan",
+      "constraints": [
+        {
+          "id": "HTN-SODIUM",
+          "constraint": "sodium",
+          "direction": "limit",
+          "priority": 70,
+          "severity": "moderate",
+          "explanation": "少盐烹调，减少高盐加工食品。"
+        }
+      ],
+      "monitoring": [
+        {
+          "type": "blood_pressure",
+          "label": "按已确认的计划记录血压",
+          "time": "07:30"
+        }
+      ]
+    },
+    "type2_diabetes": {
+      "name": "2 型糖尿病",
+      "evidence_source": "https://www.niddk.nih.gov/health-information/diabetes/overview/healthy-living-with-diabetes",
+      "constraints": [
+        {
+          "id": "DM-SUGAR",
+          "constraint": "added_sugar",
+          "direction": "limit",
+          "priority": 70,
+          "severity": "moderate",
+          "explanation": "减少添加糖，饮料优先选择无糖。"
+        },
+        {
+          "id": "DM-CARB",
+          "constraint": "refined_carbohydrate",
+          "direction": "limit",
+          "priority": 70,
+          "severity": "moderate",
+          "explanation": "关注主食份量，可用全谷物替代部分精制主食。"
+        },
+        {
+          "id": "DM-FIBER",
+          "constraint": "fiber",
+          "direction": "increase",
+          "priority": 40,
+          "severity": "low",
+          "explanation": "从蔬菜和全谷物中摄取膳食纤维。"
+        }
+      ],
+      "monitoring": [
+        {
+          "type": "fasting_glucose",
+          "label": "按已确认的计划记录血糖",
+          "time": "07:40"
+        }
+      ]
+    },
+    "hyperlipidemia": {
+      "name": "高脂血症",
+      "evidence_source": "https://www.nhlbi.nih.gov/health/heart-healthy-living/healthy-foods",
+      "constraints": [
+        {
+          "id": "LIPID-FAT",
+          "constraint": "saturated_fat",
+          "direction": "limit",
+          "priority": 60,
+          "severity": "moderate",
+          "explanation": "减少富含饱和脂肪的食品。"
+        },
+        {
+          "id": "LIPID-FIBER",
+          "constraint": "fiber",
+          "direction": "increase",
+          "priority": 40,
+          "severity": "low",
+          "explanation": "饮食中增加蔬菜和全谷物。"
+        }
+      ],
+      "monitoring": []
+    },
+    "hyperuricemia": {
+      "name": "高尿酸血症",
+      "evidence_source": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d.shtml",
+      "constraints": [
+        {
+          "id": "UA-PURINE",
+          "constraint": "high_purine_food",
+          "direction": "limit",
+          "priority": 65,
+          "severity": "moderate",
+          "explanation": "少吃动物内脏、浓肉汤及部分高嘌呤水产；优先选择蛋、奶、蔬菜和适量豆制品。"
+        },
+        {
+          "id": "UA-SUGAR",
+          "constraint": "added_sugar",
+          "direction": "limit",
+          "priority": 65,
+          "severity": "moderate",
+          "explanation": "少喝含糖饮料和果汁，限制果糖较高的加工食品。"
+        },
+        {
+          "id": "UA-ALCOHOL",
+          "constraint": "alcohol",
+          "direction": "limit",
+          "priority": 85,
+          "severity": "moderate",
+          "explanation": "不饮酒或限制饮酒。"
+        },
+        {
+          "id": "UA-HYDRATION",
+          "constraint": "hydration",
+          "direction": "review",
+          "priority": 90,
+          "severity": "moderate",
+          "explanation": "心、肾功能正常且没有限液要求时，可参考足量规律饮水；有相关疾病或限液要求先与医生确认。"
+        }
+      ],
+      "monitoring": []
+    },
+    "gout": {
+      "name": "痛风",
+      "evidence_source": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d.shtml",
+      "constraints": [
+        {
+          "id": "GOUT-PURINE",
+          "constraint": "high_purine_food",
+          "direction": "limit",
+          "priority": 65,
+          "severity": "moderate",
+          "explanation": "少吃动物内脏、浓肉汤及部分高嘌呤水产；优先选择蛋、奶、蔬菜和适量豆制品。"
+        },
+        {
+          "id": "GOUT-SUGAR",
+          "constraint": "added_sugar",
+          "direction": "limit",
+          "priority": 65,
+          "severity": "moderate",
+          "explanation": "少喝含糖饮料和果汁，限制果糖较高的加工食品。"
+        },
+        {
+          "id": "GOUT-ALCOHOL",
+          "constraint": "alcohol",
+          "direction": "limit",
+          "priority": 85,
+          "severity": "moderate",
+          "explanation": "不饮酒或限制饮酒；痛风发作时不要饮酒。"
+        },
+        {
+          "id": "GOUT-HYDRATION",
+          "constraint": "hydration",
+          "direction": "review",
+          "priority": 90,
+          "severity": "moderate",
+          "explanation": "心、肾功能正常且没有限液要求时，可参考足量规律饮水；有相关疾病或限液要求先与医生确认。"
+        }
+      ],
+      "monitoring": []
+    },
+    "chronic_kidney_disease": {
+      "name": "慢性肾脏病",
+      "evidence_source": "https://www.nhc.gov.cn/sps/c100088/202402/9ba512ba8e314a47a181db11d2fa188d.shtml",
+      "constraints": [
+        {
+          "id": "CKD-SODIUM",
+          "constraint": "sodium",
+          "direction": "limit",
+          "priority": 78,
+          "severity": "moderate",
+          "explanation": "留意盐和高钠加工食品；蛋白质、钾、磷和饮水量应按肾功能、化验及治疗阶段个别确定。"
+        }
+      ],
+      "monitoring": []
+    },
+    "stroke": {
+      "name": "脑卒中病史",
+      "evidence_source": "https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml",
+      "constraints": [
+        {
+          "id": "STROKE-SODIUM",
+          "constraint": "sodium",
+          "direction": "limit",
+          "priority": 73,
+          "severity": "moderate",
+          "explanation": "少盐烹调，关注血压和心血管风险；有吞咽困难时需先做专业评估。"
+        },
+        {
+          "id": "STROKE-FAT",
+          "constraint": "saturated_fat",
+          "direction": "limit",
+          "priority": 62,
+          "severity": "moderate",
+          "explanation": "少选肥肉和高饱和脂肪食物，注意整体饮食质量。"
+        }
+      ],
+      "monitoring": []
+    },
+    "osteoporosis": {
+      "name": "骨质疏松症",
+      "evidence_source": "https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml",
+      "constraints": [],
+      "monitoring": []
+    },
+    "sarcopenia": {
+      "name": "肌少症",
+      "evidence_source": "https://www.nhc.gov.cn/sps/c100087/202604/a69d2fce21e040dc96cbc40b923a06d3.shtml",
+      "constraints": [],
+      "monitoring": []
+    }
+  }
+}
